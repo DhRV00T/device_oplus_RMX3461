@@ -482,7 +482,7 @@
     <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="0"/>
     <ctl name="RX_CDC_DMA_RX_6 Channels" value="One" />
 
-    <!--#ifdef -->
+    <!--#ifdef VENDOR_EDIT-->
     <!--Ming.Liu@PSW.MM.AudioDriver, 2019/10/23, Add for default value -->
     <ctl name="RX INT1 MIX2 INP" value="ZERO" />
     <ctl name="RX INT2 MIX2 INP" value="ZERO" />
@@ -537,9 +537,9 @@
     <ctl name="RX_CDC_DMA_RX_0 SampleRate" value="KHZ_48"/>
     <!-- AUX RX PKR controls -->
     <ctl name="Sia81xx Power" value="Off"/>
-    <!--#endif /*  */-->
+    <!--#endif /* VENDOR_EDIT */-->
 
-    <!--#ifdef -->
+    <!--#ifdef VENDOR_EDIT-->
     <!--Jianfeng.Qiu@PSW.MM.AudioDriver.HAL, 2019/08/31, Add for loopback-->
     <ctl name="QUIN_MI2S_RX_DL_HL Switch" value="0" />
     <ctl name="QUIN_MI2S_RX Port Mixer TX_CDC_DMA_TX_3" value="0" />
@@ -547,7 +547,7 @@
 
     <ctl name="RX_CDC_DMA_RX_0 Port Mixer TX_CDC_DMA_TX_3" value="0" />
     <ctl name="RX_CDC_DMA_RX_0 Port Mixer TX_CDC_DMA_TX_4" value="0" />
-    <!--#endif /*  */-->
+    <!--#endif /* VENDOR_EDIT */-->
     <!--#ifdef OPLUS_FEATURE_KTV-->
     <!--Le.Li@MULTIMEDIA.AUDIODRIVER.OPLUS_FEATURE_KTV, 2020/10/27, Add for ktv 2.0-->
     <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia6" value="0"/>
